@@ -26,10 +26,10 @@ token_find = re.search('scope', mt)
 token_end = token_find.end()
 token_point = token_end - 27
 #token = t.read(token_point)
-token = 'CAAI1wZCZCgJUEBAJ39FDyZCc5NRjmZBihAwbcJmVbDAqBmJbazCf47Q1DhDYRx1TqtVxFa9s0zLUEEkIOR0IrTPYHhSIpjGy5bgQUZAu76GeZCzq8e6VPwKnp5wrjeuQAuEp8NoKnZA7ZACZAuY9zAv9UtVI381id3boXyWF9ZCqTaK6QAc6bknd98i7UCPzx9bcIZD'
+token = ''
 #print(token)
 
-name = 'ralphharti'
+name = ''
 
 newpath = 'data/' + name 
 if not os.path.exists(newpath): os.makedirs(newpath)
